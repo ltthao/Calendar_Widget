@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/tab_border"/>
+    <TextView
+        android:id="@+id/itemDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WEDNESDAY, MAY 10"
+        android:padding="10dp"
+        android:textSize="14sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/tab_border"/>
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/itemTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:00 AM"/>
+        <TextView
+            android:id="@+id/itemTitle"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My birthday"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
